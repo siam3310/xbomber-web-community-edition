@@ -84,6 +84,8 @@ Xbomber is the pioneer of sms and call bombers in Bangladesh. For a long time, t
 
 The community edition of Xbomber is not a dynamic website. It means, you can use this website files directly in any of the ***static website*** hosting services (Ex. Github Pages).
 
+## Major Update 
+- Numbers are now automatically trimmed to 10 digit in the `script.js` file. Upon submission, the 0 in the beginning is removed. So while setting up the APIs, please add 0 manually to make it workable.
 ### Using Github Pages
 
 To host your bomber directly into Github Pages 
@@ -105,7 +107,7 @@ To host your bomber directly into Github Pages
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
+### Method 1 [Using APIS array variable]
 1. Edit APIs in the `script.js` to make the bomber work.
    ```js
    const APIS = [
@@ -116,6 +118,8 @@ To host your bomber directly into Github Pages
         }
    ]
    ```
+### Method 2 [Using APIS json files from any URL]
+Follow the example APIS.json file in the assets directory and keep the same format in your custom api.json file to work. 
 
 _For more examples, please refer to the [Script.js Example](https://github.com/WeAreTeamX/xbomber-web-community-edition/blob/main/assets/script.js)_
 
@@ -153,10 +157,9 @@ Distributed under the GNU GENERAL PUBLIC LICENSE License. See `LICENSE` for more
 <!-- CONTACT -->
 ## Contact
 
-**Ign0r3dH4x0r** ***(Maintainer)***
-- [![Facebook Page](https://img.shields.io/badge/Facebook-Page-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/ign0r3dh4x0r)&nbsp;
-- [![Facebook Profile](https://img.shields.io/badge/Facebook-Profile-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/ffsowmik)&nbsp;
-- [![Telegram](https://img.shields.io/badge/Telegram-ID-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/xowmik)&nbsp;
+**SowmikSudo** ***(Maintainer)***
+- [![Telegram](https://img.shields.io/badge/Telegram-ID-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ign0r3dh4x0r)&nbsp;
+- [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SowmikSudo)&nbsp;
 
 **Team X 1337**
 - [![Facebook Group](https://img.shields.io/badge/Facebook-Group-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://web.facebook.com/groups/team.x.official.community)&nbsp;
